@@ -1,22 +1,25 @@
+#root {
+  background-color: #e0e0e0;
+  width: 100vw;
+  height: 100vh;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App > .toolbar {
+  height: 6vw;
+  background-color: #616161;
+  box-shadow: 1px 1px 1px lightgray;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.App > .toolbar > img {
+  height: 100%;
+  padding-left: 1vw;
+}
+
+.App > .container {
+
 }
